@@ -10,11 +10,15 @@ font-family: Georgia, "Times New Roman",
              STXihei, "华文细黑", serif;
 background-color: beige;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+    word-wrap: break-word;
+}
 /*div {
     display: none;
-}*/
-
+}
+*/
 .container {
     margin: 0 auto;
     max-width: 940px;
@@ -69,7 +73,6 @@ background-color: beige;
 }
 
 #navigator li a {
-    text-decoration: none;
     padding-left: 100px;
     color:  #333;
     text-shadow: 1px 1px 1px #ccc;
